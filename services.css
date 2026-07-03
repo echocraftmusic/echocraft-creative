@@ -1106,6 +1106,13 @@ color:var(--gold);
 
 }
 
+/* DESKTOP DEFAULTS */
+
+.mobileHeader,
+.mobileMenu{
+    display:none;
+}
+
 /* ============================
    MOBILE LAYOUT
 ============================ */
@@ -1259,7 +1266,7 @@ main{
 }
 
 .mobileHeader{
-    display:none;
+    display:flex;
     justify-content:space-between;
     align-items:center;
 
