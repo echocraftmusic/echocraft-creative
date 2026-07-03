@@ -1334,6 +1334,15 @@ main{
     margin-top:20px;
 }
 
+   .mobileMenu .projectButton{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#111;
+    padding:18px;
+    border-bottom:none;
+}
+   
 .hero{
     padding-top:120px;
 }
