@@ -1117,6 +1117,10 @@ body{
     overflow-x:hidden;
 }
 
+   .mobileHeader{
+    display:flex;
+}
+
 main{
     width:100%;
     margin-left:0;
@@ -1255,7 +1259,7 @@ main{
 }
 
 .mobileHeader{
-    display:flex;
+    display:none;
     justify-content:space-between;
     align-items:center;
 
